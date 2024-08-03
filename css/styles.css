@@ -13516,6 +13516,7 @@ html {
     margin-top: 5vw;
     max-height: 40rem;
     max-width: 40rem;
+    transform: scale(1.09)
 }
 
 .profile .profile-img {
@@ -13525,6 +13526,22 @@ html {
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
+}
+
+.profile .animation-up-down {
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@keyframes up-down {
+    0% {
+      transform: translateY(10px);
+      left: 10%;
+    }
+  
+    100% {
+      transform: translateY(-5px);
+      left: 10%;
+    }
 }
 
 .profile .dots-1 {
