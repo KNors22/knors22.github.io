@@ -2881,6 +2881,16 @@ textarea.form-control-lg {
     border-width: 1px 0;
 }
 
+.code {
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bold;
+    font-size: larger;
+    letter-spacing: 1.25px;
+    margin-left: 0.1rem;
+    margin-right: 0.1rem;
+    color: #d63384;
+}
+
 .input-group {
     position: relative;
     display: flex;
@@ -13720,4 +13730,23 @@ html {
         width: 1.5vw;
         left: -2vw;
     }
+}
+
+.icon-container {
+    max-width: 100px; /* Ensure the container does not exceed 100px */
+    width: 100%; /* Take full width of the container */
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center the icon horizontally */
+    align-items: center; /* Center the icon vertically */
+}
+.icon {
+    font-size: 10em; /* Adjust the icon size as needed */
+    margin-left: 20px; /* Optional: add some margin */
+    margin-right: auto;
+}
+.d-block2 {
+    display: block; /* Ensure it behaves as a block element */
+    padding: 10px; /* Optional: add some padding */
+    background-color: rgb(52, 58, 64); /* Background color */
+    border-radius: 8px; /* Rounded corners */
 }
